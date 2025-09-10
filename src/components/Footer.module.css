@@ -1,0 +1,104 @@
+
+.footer {
+    /* background: #f9f9f7; */
+    background: #ede9e3;
+    padding: 48px 8vw 32px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.logoSection {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoSection img{
+    width: 250px;
+}
+
+
+.contactSocial {
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    /* justify-content: flex-start; */
+    gap: 120px;
+    margin-top: 80px;
+}
+
+.contactBlock {
+    min-width: 190px;
+    text-align: center;
+}
+
+.contactHeader {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #39362f;
+    margin-bottom: 8px;
+    line-height: 1.1;
+}
+
+.contactDetails {
+    color: #5e5850;
+    font-size: 1rem;
+    margin-top: 6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.socialBlock {
+    min-width: 180px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.socialHeader {
+    font-size: 1.2rem;
+    color: #39362f;
+    margin-bottom: 8px;
+}
+
+.socialIcons a {
+    margin-right: 16px;
+    color: #39362f;
+    font-size: 1.3rem;
+    transition: color 0.2s;
+}
+
+.socialIcons a:hover {
+    color: #f3b1af;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 4vw;
+    }
+
+    .logoSection {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contactSocial {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .contactBlock, .socialBlock {
+        width: 100%;
+        text-align: center;
+    }
+    
+}

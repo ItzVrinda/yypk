@@ -1,0 +1,33 @@
+
+.card {
+    background: #d7908e;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(100, 100, 100, 0.07);
+    text-align: center;
+    height: 200px;
+   
+                font-family: 'Cormorant Garamond', serif;
+display: flex;
+flex-direction: column;
+    align-items: center;
+}
+
+.cardImage {
+    width: 80px;
+    height: 80px;
+    object-fit:contain;
+    /* border-radius: 60%; */
+}
+
+.cardTitle {
+    margin: 16px 0 8px 0;
+    font-size: 1.5rem;
+    color: #433e36;
+}
+
+.cardText {
+    color: #433e36;
+    font-size: 1rem;
+    font-weight: 800;
+}
