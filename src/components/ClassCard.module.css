@@ -54,13 +54,14 @@
 }
 
 .dialogBox {
-  background: #fff;
+  background: #fdf5e6;
   padding: 2rem;
   border-radius: 12px;
   max-width: 400px;
   width: 90%;
   position: relative;
   box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .closeBtn {
@@ -70,4 +71,20 @@
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.boxData {
+    color: #555;
+    font-size: 0.95rem;
+    margin-top: 8px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.cost {
+    color: #333;
+    font-size: 1.1rem;
+    margin-top: 12px;
+    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
 }

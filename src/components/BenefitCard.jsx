@@ -8,6 +8,7 @@ export default function BenefitCard({ image, title, description }) {
       <img src={image} alt={title} className={styles.cardImage} />
       <h4 className={styles.cardTitle}>{title}</h4>
       <p className={styles.cardText}>{description}</p>
+      
     </div>
   );
 }

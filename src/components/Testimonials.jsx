@@ -12,39 +12,39 @@ export const Testimonials = () => {
   // Duplicate testimonials for second row (we'll use a different subset)
   const Testimonials = [
     {
-      name: "Sophia Rodriguez",
-      role: "Full Stack Developer @ Stripe",
-      text: "From imposter syndrome to tech lead in six months. Arkham Labs didn't just prepare me for interviews—it transformed my entire approach to problem-solving.",
+      name: "Rohit Shukla",
+      role: "Graphic Designer",
+      text: "Attending sessions here has transformed not just my body but also my mind. I feel calmer, healthier, and more focused in my daily life.",
       company: "Stripe",
     },
     {
       name: "Raj Patel",
-      role: "Infrastructure Engineer @ Cloudflare",
-      text: "The personalized challenge sequence pushed my limits in exactly the right ways. I'm solving problems now that I couldn't even understand before.",
+      role: "Civil Engineer",
+      text: "The instructors are so patient and motivating. I had never tried yoga before, but now it has become a part of my lifestyle.",
       company: "Cloudflare",
     },
     {
-      name: "Emma Johnson",
-      role: "Algorithm Specialist @ Trading Firm",
-      text: "For high-frequency trading interviews, you need precision and speed. Arkham Labs honed both until my solutions were practically muscle memory.",
+      name: "Neha Bhati",
+      role: "HR at Tech Startup",
+      text: "After joining, my back pain has reduced drastically, and I sleep so much better at night. This place truly cares for your well-being.",
       company: "Top Trading Firm",
     },
     {
-      name: "Marcus Williams",
-      role: "Security Engineer @ Apple",
-      text: "The bat-signal went up, and Arkham Labs answered. I went from rejected by Apple twice to accepting an offer with a 40% higher salary than expected.",
+      name: "Sandhya Iyer",
+      role: "Teacher",
+      text: "The environment is peaceful, and the classes are perfectly balanced between physical postures and mindfulness practices. Highly recommend!",
       company: "Apple",
     },
     {
-      name: "Leila Nguyen",
-      role: "ML Engineer @ Anthropic",
-      text: "Even for AI specialists, the fundamentals matter. Arkham Labs helped me shore up my core skills while letting me focus on my machine learning expertise.",
+      name: "Arjun Mehta",
+      role: "Student",
+      text: "I love the friendly atmosphere and personalized attention. Even as a beginner, I never felt out of place.",
       company: "Anthropic",
     },
   ];
 
   return (
-    <div id="testimonials" className="min-h-[95vh] p-4" ref={sectionRef}>
+    <div id="testimonials" className="cover" ref={sectionRef}>
       <div className="relative min-h-[95vh] rounded-4xl overflow-hidden">
         {/* Content Layer */}
         <div className="relative z-10 h-full w-full flex flex-col items-center">

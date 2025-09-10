@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./ClassCard.module.css";
 
-export default function ClassCard({ image, title, description, boxData }) {
+export default function ClassCard({ image, title, description, boxData,cost }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -27,7 +27,8 @@ export default function ClassCard({ image, title, description, boxData }) {
             <img src={image} alt={title} className={styles.image} />
             <h3 className={styles.title}>{title}</h3>
             <p className={styles.desc}>{description}</p>
-            <p>{boxData}</p>
+            <p className={styles.boxData}>{boxData}</p>
+            <p className={styles.cost}>{cost}</p>
             {/* Add more details here if needed */}
           </div>
         </div>
